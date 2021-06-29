@@ -1,4 +1,4 @@
-# Config Tensorflow 2.5.0 on Mac OS (Apple M1 Silicon) brief tutorial
+# Install Tensorflow 2.5.0 on Mac OS (Apple M1 Silicon): a Brief Tutorial
 
 ## Xcode and CLI Tools
 
@@ -34,7 +34,7 @@ brew install pyenv
 brew install pyenv-virtualenv
 ```
 
-Need to config __~/.zshrc__, __~/.bash_profile__ or __~/.zprofile__.
+Need to configure __~/.zshrc__, __~/.bash_profile__ or __~/.zprofile__.
 
 In __~/.zshrc__:
 ```
