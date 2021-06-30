@@ -30,7 +30,6 @@ export PATH="/opt/homebrew/bin/git:${PATH}"
 
 ```shell
 brew install pyenv
-
 brew install pyenv-virtualenv
 ```
 
@@ -61,20 +60,15 @@ Then:
 
 ```shell
 pyenv install miniforge3-4.10.1-5
-
 pyenv shell miniforge3-4.10.1-5
-
 conda create --name tensorflow-macos python=3.9.5
-
 conda activate tensorflow-macos
 ```
 
 ## Tensorflow-macos and Tensorflow-metal
-```
+```shell
 conda install -c apple tensorflow-metal
-
 pip install tensorflow-macos
-
 pip install tensorflow-metal
 ```
 
