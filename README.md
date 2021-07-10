@@ -67,7 +67,7 @@ conda activate tensorflow-macos
 
 ## Tensorflow-macos and Tensorflow-metal
 ```shell
-conda install -c apple tensorflow-metal
+conda install -c apple tensorflow-deps
 pip install tensorflow-macos
 pip install tensorflow-metal
 ```
